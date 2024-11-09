@@ -5,3 +5,99 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
+body {
+  color: #333;
+  background-color: #f7f9fc;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* header styling */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1em;
+  color: #7f8c8d;
+}
+
+/* navigation styling */
+nav {
+  background-color: #3498db;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #2980b9;
+  border-radius: 3px;
+}
+
+/* About us section styling */
+#about {
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+  font-size: 2em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+#about p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* footer styling */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #7f8c8d;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #3498db;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
