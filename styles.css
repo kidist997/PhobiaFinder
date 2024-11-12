@@ -190,3 +190,50 @@ nav ul li a.active {
   border-radius: 5px;
   padding: 5px 10px;
 }
+/**responsive */
+/* Mobile view (480px and below) */
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  section {
+    padding: 0 15px;
+  }
+
+  h1,
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p,
+  ul li {
+    font-size: 0.85rem;
+  }
+
+  button,
+  input[type="submit"] {
+    padding: 6px 10px;
+    font-size: 0.9rem;
+  }
+
+  #results {
+    padding: 10px;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
