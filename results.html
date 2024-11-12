@@ -7,6 +7,56 @@
     <title>PhobiaFinder - Discover Your Phobias</title>
   </head>
   <body>
-    <script src="script.js"></script>
+    <header>
+      <h1>Your PhobiaFinder Results</h1>
+      <p>
+        Below is an analysis based on your responses. Remember, this is a
+        general guide and not a professional diagnosis.
+      </p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html" id="homeLink">Home</a></li>
+        <li><a href="quiz1.html" id="quiz1Link"> Quiz 1</a></li>
+        <li><a href="quiz2.html" id="quiz2Link">Quiz 2</a></li>
+        <li><a href="results.html" id="resultsLink">Results</a></li>
+      </ul>
+    </nav>
+
+    <section id="results">
+      <h2>Your Analysis</h2>
+      <div id="resultMessage">
+        <!-- JavaScript will populate the results here -->
+      </div>
+      <p class="analysis">
+        Based on your answers, here are some resources that might help you learn
+        more about managing anxiety and overcoming fears:
+      </p>
+      <ul>
+        <li>
+          <a href="https://www.mentalhealth.org" target="_blank"
+            >Mental Health Foundation</a
+          >
+        </li>
+        <li>
+          <a href="https://www.psychologytoday.com" target="_blank"
+            >Psychology Today</a
+          >
+        </li>
+        <li>
+          <a href="https://www.nhs.uk/conditions/phobias/" target="_blank"
+            >NHS - Phobia Information</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 PhobiaFinder. All rights reserved.</p>
+      <p><a href="#">Contact Us</a> | <a href="#">FAQ</a></p>
+    </footer>
+
+    <script src="results.js"></script>
   </body>
 </html>

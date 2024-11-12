@@ -7,6 +7,62 @@
     <title>PhobiaFinder - Discover Your Phobias</title>
   </head>
   <body>
+    <header>
+      <h1>PhobiaFinder Quiz 1</h1>
+      <p>
+        Answer the following questions to learn more about your potential
+        phobias.
+      </p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html" id="homeLink">Home</a></li>
+        <li><a href="quiz1.html" id="quiz1Link"> Quiz 1</a></li>
+        <li><a href="quiz2.html" id="quiz2Link">Quiz 2</a></li>
+        <li><a href="results.html" id="resultsLink">Results</a></li>
+      </ul>
+    </nav>
+
+    <section id="quiz1">
+      <h2>Quiz 1: Understanding Your Fears</h2>
+      <form id="quizForm">
+        <div class="question">
+          <p>1. Do you feel uneasy when you are in high places?</p>
+          <label>
+            <input type="radio" name="question1" value="yes" /> Yes
+          </label>
+          <label> <input type="radio" name="question1" value="no" /> No </label>
+        </div>
+
+        <div class="question">
+          <p>2. Do you feel nervous in crowded places?</p>
+          <label>
+            <input type="radio" name="question2" value="yes" /> Yes
+          </label>
+          <label> <input type="radio" name="question2" value="no" /> No </label>
+        </div>
+
+        <div class="question">
+          <p>
+            3. Do you get anxious when speaking in front of a large audience?
+          </p>
+          <label>
+            <input type="radio" name="question3" value="yes" /> Yes
+          </label>
+          <label> <input type="radio" name="question3" value="no" /> No </label>
+        </div>
+
+        <button type="button" onclick="calculateResults()">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 PhobiaFinder. All rights reserved.</p>
+      <p><a href="#">Contact Us</a> | <a href="#">FAQ</a></p>
+    </footer>
+
+    <script src="results.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

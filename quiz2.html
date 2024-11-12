@@ -7,6 +7,60 @@
     <title>PhobiaFinder - Discover Your Phobias</title>
   </head>
   <body>
+    <header>
+      <h1>PhobiaFinder Quiz 2</h1>
+      <p>
+        Answer the following questions to explore more about your fears and
+        phobias.
+      </p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html" id="homeLink">Home</a></li>
+        <li><a href="quiz1.html" id="quiz1Link"> Quiz 1</a></li>
+        <li><a href="quiz2.html" id="quiz2Link">Quiz 2</a></li>
+        <li><a href="results.html" id="resultsLink">Results</a></li>
+      </ul>
+    </nav>
+
+    <section id="quiz2">
+      <h2>Quiz 2: Discovering Your Triggers</h2>
+      <form id="quizForm2">
+        <div class="question">
+          <p>1. Do you feel anxious in confined spaces?</p>
+          <label>
+            <input type="radio" name="question1" value="yes" /> Yes
+          </label>
+          <label> <input type="radio" name="question1" value="no" /> No </label>
+        </div>
+
+        <div class="question">
+          <p>2. Do you get nervous around certain animals?</p>
+          <label>
+            <input type="radio" name="question2" value="yes" /> Yes
+          </label>
+          <label> <input type="radio" name="question2" value="no" /> No </label>
+        </div>
+
+        <div class="question">
+          <p>3. Do you avoid places far from medical help?</p>
+          <label>
+            <input type="radio" name="question3" value="yes" /> Yes
+          </label>
+          <label> <input type="radio" name="question3" value="no" /> No </label>
+        </div>
+
+        <button type="button" onclick="calculateResultsQuiz2()">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 PhobiaFinder. All rights reserved.</p>
+      <p><a href="#">Contact Us</a> | <a href="#">FAQ</a></p>
+    </footer>
+
+    <script src="results.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
