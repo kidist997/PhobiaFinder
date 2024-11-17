@@ -46,7 +46,7 @@ function displayResults() {
   const quiz2Score = parseInt(localStorage.getItem("quiz2Score")) || "0";
   const totalScore = quiz1Score + quiz2Score;
 
-  const resultMessage = document.getElementById("resultMessage");
+  const resultMessage = document.getElementById("resultMessag");
 
   if (totalScore <= 1) {
     resultMessage.innerHTML =
